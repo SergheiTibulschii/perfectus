@@ -1,0 +1,16 @@
+{
+  "name": "scss-base",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/scss-base/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/scss-base/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,102 @@
+$breakpoint-xs: 0;
+$breakpoint-sm: rem(480);
+$breakpoint-md: rem(768);
+$breakpoint-lg: rem(992);
+$breakpoint-xl: rem(1200);
+$breakpoint-2xl: rem(1440);
+
+/* FONT SIZE */
+
+/* Step -2: 10.24px → 19.44px */
+$text--2: clamp(0.64rem, calc(0.35rem + 0.96vw), 1.22rem);
+
+/* Step -1: 12.80px → 23.33px */
+$text--1: clamp(0.80rem, calc(0.47rem + 1.10vw), 1.46rem);
+
+/* Step 0: 16.00px → 24.00px */
+$text-0: clamp(1.00rem, calc(0.88rem + 0.42vw), 1.25rem);
+
+/* Step 1: 20.00px → 33.60px */
+$text-1: clamp(1.25rem, calc(0.83rem + 1.42vw), 2.10rem);
+
+/* Step 2: 25.00px → 40.32px */
+$text-2: clamp(1.56rem, calc(1.08rem + 1.60vw), 2.52rem);
+
+/* Step 3: 31.25px → 48.38px */
+$text-3: clamp(1.95rem, calc(1.42rem + 1.78vw), 3.02rem);
+
+/* Step 4: 39.06px → 58.06px */
+$text-4: clamp(2.44rem, calc(1.85rem + 1.98vw), 3.63rem);
+
+/* Step 5: 48.83px → 69.67px */
+$text-5: clamp(3.05rem, calc(2.40rem + 2.17vw), 4.35rem);
+
+
+/* COLORS */
+$clr-blue: (
+  "navy blue": hsl(196, 64%, 37%)
+);
+
+$clr-green: (
+  "teal": hsl(174, 79%, 43%)
+);
+
+$clr-orange: (
+  "sunset": hsl(37, 100%, 73%)
+);
+
+$clr-biege: (
+  "sunset": hsl(40, 88%, 97%)
+);
+
+$clr-pink: (
+  "hot pink": hsl(358, 99%, 71%)
+);
+
+$clr-gray: (
+  "charcoal": #212529
+);
+
+/* SPACING */
+$spacing-1: rem(4);
+$spacing-2: rem(8);
+$spacing-3: rem(12);
+$spacing-4: rem(16);
+$spacing-5: rem(20);
+$spacing-6: rem(24);
+$spacing-7: rem(28);
+$spacing-8: rem(32);
+$spacing-9: rem(36);
+$spacing-10: rem(40);
+$spacing-11: rem(44);
+$spacing-12: rem(48);
+$spacing-13: rem(52);
+$spacing-14: rem(56);
+$spacing-15: rem(60);
+$spacing-16: rem(64);
+
+$space-3xs: clamp(0.25rem, calc(0.13rem + 0.42vw), 0.50rem);
+
+/* Space 2xs: 8px → 16px */
+$space-2xs: clamp(0.50rem, calc(0.25rem + 0.83vw), 1.00rem);
+
+/* Space xs: 12px → 24px */
+$space-xs: clamp(0.75rem, calc(0.38rem + 1.25vw), 1.50rem);
+
+/* Space s: 16px → 32px */
+$space-s: clamp(1.00rem, calc(0.50rem + 1.67vw), 2.00rem);
+
+/* Space m: 24px → 48px */
+$space-m: clamp(1.50rem, calc(0.75rem + 2.50vw), 3.00rem);
+
+/* Space l: 32px → 64px */
+$space-l: clamp(2.00rem, calc(1.00rem + 3.33vw), 4.00rem);
+
+/* Space xl: 48px → 96px */
+$space-xl: clamp(3.00rem, calc(1.50rem + 5.00vw), 6.00rem);
+
+/* Space 2xl: 64px → 128px */
+$space-2xl: clamp(4.00rem, calc(2.00rem + 6.67vw), 8.00rem);
+
+/* Space 3xl: 96px → 192px */
+$space-3xl: clamp(6.00rem, calc(3.00rem + 10.00vw), 12.00rem);

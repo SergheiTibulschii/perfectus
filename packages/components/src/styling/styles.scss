@@ -1,0 +1,13 @@
+@import '../../../scss-base/src/index';
+
+:root {
+  --font-primary: 'Petrona', serif;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.f {
+  font-size: 14px;
+}

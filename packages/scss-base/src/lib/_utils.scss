@@ -1,0 +1,9 @@
+.container {
+  padding: 0 $spacing-4;
+  margin: 0 auto;
+  max-width: $breakpoint-2xl;
+}
+
+.full-width {
+    margin: calc(-50vw + 50%) 0;
+}
