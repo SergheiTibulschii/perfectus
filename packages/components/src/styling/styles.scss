@@ -4,8 +4,22 @@
   --font-primary: 'Petrona', serif;
 }
 
+
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: var(--font-primary);
+
+  &.main-layout {
+    display: flex;
+    flex-direction: column;
+
+    & main {
+      flex: 1;
+    }
+  }
 }
 
 .f {

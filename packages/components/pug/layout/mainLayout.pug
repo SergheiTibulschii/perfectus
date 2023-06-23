@@ -1,0 +1,11 @@
+extends ../template
+
+block templateContent
+    body.main-layout
+        include ../layout/header.pug
+
+        main
+            .container
+                block content
+
+        include ../layout/footer.pug
